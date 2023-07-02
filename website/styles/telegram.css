@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans&display=swap');
 
 html { 
-    background-image: url('/website/dev/img/FxsEbR4agAA6jGu.jpeg');
+    background-image: url('../dev/img/FxsEbR4agAA6jGu.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
@@ -11,7 +11,7 @@ html {
 
 .telegram { 
     position: absolute;
-    background-image: url('/website/dev/img/system/SideNav.png');
+    background-image: url('../dev/img/system/SideNav.png');
     background-repeat: no-repeat;
     margin: 0% auto;
     height: 720px;
