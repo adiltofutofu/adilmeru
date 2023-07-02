@@ -7,7 +7,7 @@
 /* тело нашего сайта <3 и системные настройки */
 @font-face {
     font-family: Bodoni;
-    src: url('/website/dev/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf');
+    src: url('../dev/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf');
 }
 html { 
     background-repeat: no-repeat;
