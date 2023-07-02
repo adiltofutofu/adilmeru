@@ -1,0 +1,306 @@
+/* 
+
+    если ты ёто читаешь, то знай что каждый пиксель сайта был сделан с любовью
+
+*/
+
+/* тело нашего сайта <3 и системные настройки */
+@font-face {
+    font-family: Bodoni;
+    src: url('/website/dev/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf');
+}
+html { 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: Bodoni, serif; 
+    font-weight: 400;
+    font-size: 14px;
+}
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.wrapped-body::-webkit-scrollbar { opacity: 0; height: 2px; width:5px }
+.wrapped-body::-webkit-scrollbar-track { opacity: 0; }
+.wrapped-body::-webkit-scrollbar { display: none; }
+.wrapped-body::-webkit-scrollbar-track:hover { background-color:#f4f4f4 }
+.wrapped-body::-webkit-scrollbar-thumb { background-color:#babac0; border-radius:16px; }
+.wrapped-body::-webkit-scrollbar-thumb:hover { background-color:#a0a0a5; border:4px solid #f4f4f4 }
+.wrapped-body::-webkit-scrollbar-button { display:none }
+
+/* а здесь я сделал scrollable div внутри секции сайта */
+.wrapped-body { 
+    background-color: #ffffff;
+    margin: 0% auto;
+    height: 620px;
+    width: 1180px;
+    position: absolute;
+    overflow: hidden;
+    overflow-y: scroll;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+/* 1st block start */
+nav {
+    padding-top: 2.5%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo { 
+    float: left;
+    font-size: 66px;
+}
+.click-here {
+    color: #7e6268;
+}
+.us {
+    float: right;
+}
+/* 1st block end */
+
+/* 2st block start */
+#container-1 {
+    padding-top: 10%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.sections {
+    float: left;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.quote-1 {
+    float: right;
+}
+.quote-1 p {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+/* 2st block end */
+
+/* 3st block start */
+.video-main video {
+    padding-top: 2.5%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* 3st block end */
+
+/* 4t block start */
+.quote-2 {
+    font-size: 66px;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    width: 90%;
+    margin: 0 auto;
+}
+.quote-2 p {
+    margin: 0;
+    padding: 0;
+}
+.l-q {
+    float: left;
+}
+.r-q {
+    float: right;
+}
+/* 4st block end */
+
+/* 5st block start */
+#container-4 {
+    margin: 0% auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5%;
+}
+.l-s {
+    float: left;
+    width: 30%;
+}
+.nightfury-1 {
+    height: 100%;
+    width: 100%;
+}
+.r-s {
+    float: right;
+    width: 65%;
+}
+#picofus {
+    max-width: 100%;
+    max-height: 100%;
+}
+.quote-meru-1{
+    font-size: 18px;
+}
+/* 5st block end */
+
+/* 6st block start */
+#container-5 {
+    margin: 0% auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5%;
+}
+.l-s-2 {
+    float: left;
+    width: 65%;
+}
+.r-s-2 {
+    float: right;
+    width: 30%;
+}
+.nightfury-2 {
+    height: 100%;
+    width: 100%;
+}
+#cute {
+    max-width: 50%;
+    max-height: 50%;
+}
+.quote-meru-2 {
+    font-size: 18px;
+}
+/* 6st block end */
+
+/* 7st block start */
+#container-6 {
+    margin: 0% auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+.l-3 {
+    font-size: 22px;
+}
+.c-3 {
+    margin: 0% auto;
+    width: 60%;
+}
+.r-3 {
+    font-family: Bodoni, serif; 
+    font-size: 22px;
+    font-weight: 700;
+}
+.r-3 p {
+    margin: 0;
+}
+.spotify-under {
+    font-size: 8px;
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+}
+    
+div#slider { 
+    overflow: hidden; 
+}
+div#slider figure img { 
+    width: 20%; 
+    height: 15%;
+    float: left; 
+}
+div#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0% auto;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+}
+    
+/* 7st block end */
+
+/* 8st block start */
+#container-7 {
+    width: 100%;
+    background-color: #ddeefd;
+    height: 600px;
+}
+.quote-3 {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 44px;
+    width: 90%;
+    margin: 0 auto;
+}
+.quote-3 p {
+    margin: 0%;
+}
+.r-q-2 {
+    float: right;
+}
+.L-q-2 {
+    float: left;
+}
+.photo-gallery {
+    padding-top: 5%;
+    margin: 0% auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.photo-gallery img {
+    height: 300px;
+    width: 300px;
+}
+/* 8st block end */
+
+/* 9st block start */
+#container-8 {
+    padding-top: 5%;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 400px;
+}
+#container-8 p {
+    margin: 0;
+    padding: 0;
+}
+.story {
+    font-size: 44px;
+    width: 20%;
+    float: left;
+}
+.message {
+    font-size: 16px;
+    width: 70%;
+    float: right;
+}
+/* 9st block end */
